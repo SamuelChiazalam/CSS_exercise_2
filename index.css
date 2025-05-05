@@ -1,0 +1,84 @@
+:root {
+  --body-color: #000000;
+  --span-color: #008000;
+  --main-container-color: #5a5a5a;
+  --pg-container-color: #ffffff;
+  --yellow-container-color: #ffff00;
+  --shadow-color: #00000080;
+}
+  * {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--body-color);
+  margin-right: 150px auto;
+  margin-left: 500px auto;
+  align-items: center;
+}
+
+.company-name,
+.first-intro {
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.second-intro {
+  width: 280px;
+}
+
+span {
+  color: var(--span-color);
+  cursor: pointer;
+}
+
+.main-container {
+  background-color: var(--main-container-color);
+  display: flex;
+  flex-direction: column;
+  width: 1000px auto;
+  height: 600px auto;
+  margin: 100px auto;
+  margin-top: 100px;
+  box-sizing: border-box;
+  width: 600px;
+}
+
+.first-pg-container {
+  background-color: var(--pg-container-color);
+  padding: 20px 50px 30px 100px;
+  width: px;
+}
+
+.second-pg-containeer {
+  padding-left: 50px;
+}
+
+.main-container-nd {
+  padding-left: 50px;
+  margin: 50px;
+  background-color: var(--pg-container-color);
+}
+
+.yellow-container {
+  background-color: var(--yellow-container-color);
+  font-weight: bold;
+  display: inline flex;
+  position: relative;
+  margin-bottom: 15px;
+  padding: 10px 35px;
+  left: -55px;
+  bottom: -5px;
+  box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+.aim {
+  width: 320px;
+}
+
+.nd-pg-container {
+  width: 100%;
+  padding-bottom: 20px;
+}
