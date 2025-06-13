@@ -1,5 +1,7 @@
 # CSS_exercise_2
 
+CSS Hands-On Assignment
+
 Exercise 2
 
 Convert the design in the image to HTML and CSS. Check this Figma file for pixel-perfect design.
